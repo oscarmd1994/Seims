@@ -86,7 +86,7 @@
           <!-- Content -->
           <h1 class=" orange-text font-weight-bold"> SEIMS </h1>
           <h2 class="card-title h2 my-4 py-2"><i class="fas fa-users"></i> Acerca de Nosotros</h2>
-          <p class="mb-4 pb-2 px-md-5 mx-md-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam, modi qui quidem minima debitis perferendis vitae cumque et quo impedit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis praesentium sed eveniet, labore velit nihil recusandae, aliquid nam soluta, delectus laborum quas? Sint rerum ipsam omnis vero facere eveniet accusamus.</p>
+          <p class="mb-4 pb-2 px-md-5 mx-md-5 text-justify">SEIMS es una empresa que ofrece servicios eléctricos e industriales, constituida por personal integro, con ganas y entusiasmo a crecer buscando así llegar a ser reconocida, nuestro principal interés radica en satisfacer exitosamente todas las necesidades de nuestros clientes siendo al mismo tiempo amables y atentos, incluyendo la conservación del medio ambiente ;Así como también formar una buena familia laboral basada en la confianza, liderazgo y excelencia servicial.</p>
           <a class="btn btn-amber" id="btn-saber-mas"><i class="fas fa-file-alt right"></i> Saber más</a>
         </div>
       </div>
