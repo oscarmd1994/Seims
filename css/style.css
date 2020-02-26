@@ -1,0 +1,71 @@
+.bg-nav-color{
+    background-color: #1c2a48 !important;
+    color: white !important;
+}
+.bg-footer-color{
+    background-color: #1c2a48 !important;
+}
+.card-image{
+    background-image: url(../img/acercade.webp) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+/**/
+/*  CSS SLIDE STYLES   */
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+/*  FIN CSS SLIDE STYLES   */
+/**/
+
+.title-text{
+    font-family: 'Montserrat' ;
+}
+/*TIMELINE STYLE*/
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.step { position: relative; min-height: 32px /* circle-size */ ; margin-bottom: 1rem;}
+.step > div:first-child { position: static; height: 0; }
+.step > div:last-child { margin-left: 32px ; padding-left: 16px; }
+.circle-1 { background: #1e88e5; width: 32px; height: 32px; line-height: 32px; border-radius: 16px; position: relative; color: white; text-align: center; }
+.circle-2 { background: #8bc34a; width: 32px; height: 32px; line-height: 32px; border-radius: 16px; position: relative; color: white; text-align: center; }
+.circle-3 { background: #f06292; width: 32px; height: 32px; line-height: 32px; border-radius: 16px; position: relative; color: white; text-align: center; }
+.circle-4 { background: #ab47bc; width: 32px; height: 32px; line-height: 32px; border-radius: 16px; position: relative; color: white; text-align: center; }
+.circle-5 { background: #f57c00; width: 32px; height: 32px; line-height: 32px; border-radius: 16px; position: relative; color: white; text-align: center; }
+.circle-6 { background: #b2ebf2; width: 32px; height: 32px; line-height: 32px; border-radius: 16px; position: relative; color: white; text-align: center; }
+.circle { background: #4285f4; width: 32px; height: 32px; line-height: 32px; border-radius: 16px; position: relative; color: white; text-align: center; }
+.line { position: absolute; border-left: 1px solid gainsboro; left: 16px; bottom: 10px; top: 42px; }
+.step:last-child .line { display: none; }
+.title { line-height: 32px; font-weight: bold; }
+/*TIMELINE STYLE*/
