@@ -8,6 +8,9 @@ $(function () {
     $("#link_inicio").on("click", function(){
         $("#bodymenu").load("Inicio.php");
     });
+    $("#link_acercade").on("click", function(){
+        $("#bodymenu").load("Acercade.php");
+    });
 
     ///////// fin funciones menu
 

@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap" rel="stylesheet"> 
 </head>
 <body class="">
-  <nav class=" navbar navbar-expand-lg navbar-dark primary-color bg-nav-color" >
+  <nav class=" navbar navbar-expand-lg navbar-dark primary-color bg-nav-color sticky-top" >
     <a class="navbar-brand titulo" href="#">
       <img src="./img/prueba2.png" class="" height="50" alt="">
     </a>
@@ -25,10 +25,8 @@
       aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <!-- Collapsible content -->
     <div class="collapse navbar-collapse" id="basicExampleNav">
-
       <!-- Links -->
       <ul class="navbar-nav mr-auto w-100 justify-content-end">
       <li class="nav-item ">
@@ -38,10 +36,10 @@
           <a class="nav-link" id="link_acercade" href="#">Acerca de nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="link_servicios" href="#">Servcios que ofrecemos</a>
+          <a class="nav-link" id="link_servicios" href="#">Servicios que ofrecemos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="link_otizaciones" href="#">Cotizaciones</a>
+          <a class="nav-link" id="link_cotizaciones" href="#">Cotizaciones</a>
         </li>
         <li class="nav-item ">
           <a class="nav-link" id="link_productos" href="#">Productos
@@ -62,22 +60,22 @@
     <div class="row d-flex text-center justify-content-center mb-1">
       <!-- Grid column -->
       <div class="col-md-8 col-12 mt-4">
-      <div class="">E-mail : <i class="fas fa-at"></i> servicios_seims@hotmail.com</div>
+      <div><span class="font-weight-bold"> E-mail : </span><i class="fas fa-at"></i> servicios_seims@hotmail.com</div>
       </div>
       <div class="col-md-8 col-12">
-      <div class="">Numero de telefono: 7226472085</div>
+      <div class=""><span class="font-weight-bold"> Numero de telefono : </span> 7226472085</div>
       </div>
       <div class="col-md-8 col-12">
-      <div class="">Toluca Lerdo, San Mateo Atenco</div>
+      <div class=""><span class="font-weight-bold"> Dirección : </span> Toluca Lerdo, San Mateo Atenco</div>
       </div>
-      
     </div>
     <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
     <div class="row pb-2">
       <div class="col-md-12">
         <div class="mb-2 flex-center">
-          <a class="fb-ic">
-            <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
+        <!--EL LINK DE FACEBOOK VA DENTRO DEL href-->
+          <a class="fb-ic" href="aqui va el link">
+            <i class="fab fa-facebook-f fa-lg white-text mr-4"></i>
           </a>
         </div>
       </div>

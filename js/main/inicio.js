@@ -31,11 +31,9 @@ $(function(){
         });
     }, 500);
 
-    $(".card").on("click", function(){
-        $("#bodymenu").load("Servicios.php");
-    });
-    $("#btn-saber-mas").on("click", function(){
-        $("#bodymenu").load("Acercade.php");
+    
+    $("#btnSaberMas").on("click", function(){
+        $("#link_acercade").click();
     });
     
 });
