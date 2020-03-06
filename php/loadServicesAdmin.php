@@ -1,4 +1,7 @@
+
 <?php
+
+//este modulo es para hacer el  CRUD se servicios que ofrecemos.
 
 require_once ("conexion.php");
 

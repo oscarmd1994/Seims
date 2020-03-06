@@ -9947,6 +9947,9 @@ table.table a.btn.btn-black {
         padding-top: 5px;
         padding-bottom: 5px
     }
+    img.logo-menu {
+        height: 60px !important;
+    }
 }
 
 .pagination .page-item.active .page-link {

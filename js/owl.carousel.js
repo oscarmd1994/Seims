@@ -1691,7 +1691,7 @@
 	};
 
 	/**
-	 * Gets the difference of two vectors.
+	 * Gets the difference of two vectors.   
 	 * @todo #261
 	 * @protected
 	 * @param {Object} - The first vector.
