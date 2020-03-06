@@ -33,8 +33,13 @@ $(function(){
     }, 500); //
 
     
+<<<<<<< HEAD
     $("#btnSaberMas").on("click", function(){ //boton que direcciona al modulo de acerca de nosotros dentro del inicio
         $("#link_acercade").click();//se hace click con codigo .-.
+=======
+    $("#btnSaberMas").on("click", function(){
+        $("#link_acercade").click();
+>>>>>>> d327506190f6e6c9788b10f09e734b2ad612df97
     });
     
 });

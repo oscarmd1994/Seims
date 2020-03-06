@@ -31,11 +31,29 @@ body{
     background-position: center !important;
     background-size: cover !important;
 }
+<<<<<<< HEAD
 /*NO RECUERDO DONDE LO PUSE :C VALIO GGGG*/
 .img-s{
     height: 250px !important;
 }
 
+=======
+.imgValor_1{
+    background-image: url(../img/calidad2.png) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+.imgValor_2{
+    background-image: url(../img/calidad2.png) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-s{
+    height: 250px !important;
+}
+>>>>>>> d327506190f6e6c9788b10f09e734b2ad612df97
 /**/
 /*  ESTILOS DEL SLIDER, LOS DATOS VIENEN DE "LoadInicio.php"
 */

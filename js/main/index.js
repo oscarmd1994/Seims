@@ -12,12 +12,15 @@ $(function () {
     $("#link_acercade").on("click", function(){
         $("#bodymenu").load("Acercade.php");
     });
+<<<<<<< HEAD
 
 
     $("#link_cotizaciones").on("click", function(){
         $("#bodymenu").load("cotizaciones.php");
     });
 
+=======
+>>>>>>> d327506190f6e6c9788b10f09e734b2ad612df97
 
     ///////// fin funciones menu
 

@@ -20,8 +20,13 @@
   <link rel="stylesheet" href="css/estilos.css"> <!--estilos getza--->
   <link rel="stylesheet" href="css/animate.css"> <!--estilos getza animaciones-->
 </head>
+<<<<<<< HEAD
 <body class=" img-fondo-inicio">
   <nav class=" navbar navbar-expand-lg navbar-dark primary-color bg-nav-color sticky-top scrolling-navbar" >
+=======
+<body class="">
+  <nav class=" navbar navbar-expand-lg navbar-dark primary-color bg-nav-color sticky-top" >
+>>>>>>> d327506190f6e6c9788b10f09e734b2ad612df97
     <a class="navbar-brand titulo" href="#">
       <img src="./img/prueba2.png" class="logo-menu" height="50" alt="">
     </a>
@@ -68,6 +73,7 @@
     <div class="row d-flex text-center justify-content-center mb-1">
       <!-- Grid column -->
       <div class="col-md-8 col-12 mt-4">
+<<<<<<< HEAD
           <div><span class="font-weight-bold"> E-mail : </span><i class="fas fa-at"></i> servicios_seims@hotmail.com</div>
       </div>
       <div class="col-md-8 col-12">
@@ -75,15 +81,30 @@
       </div>
       <div class="col-md-8 col-12">
           <div class=""><span class="font-weight-bold"> Dirección : </span>San Mateo Atenco</div>
+=======
+      <div><span class="font-weight-bold"> E-mail : </span><i class="fas fa-at"></i> servicios_seims@hotmail.com</div>
+      </div>
+      <div class="col-md-8 col-12">
+      <div class=""><span class="font-weight-bold"> Numero de telefono : </span> 7226472085</div>
+      </div>
+      <div class="col-md-8 col-12">
+      <div class=""><span class="font-weight-bold"> Dirección : </span> Toluca Lerdo, San Mateo Atenco</div>
+>>>>>>> d327506190f6e6c9788b10f09e734b2ad612df97
       </div>
     </div>
     <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
     <div class="row pb-2">
       <div class="col-md-12">
         <div class="mb-2 flex-center">
+<<<<<<< HEAD
         <!--EL LINK DE FACEBOOK VA DENTRO DEL href    -->
           <a class="fb-ic" href="https://www.facebook.com/SEIMSOFICIAL/">
             <i class="fab fa-facebook fa-lg white-text mr-2"></i> ¡Siguenos!
+=======
+        <!--EL LINK DE FACEBOOK VA DENTRO DEL href-->
+          <a class="fb-ic" href="aqui va el link">
+            <i class="fab fa-facebook-f fa-lg white-text mr-4"></i>
+>>>>>>> d327506190f6e6c9788b10f09e734b2ad612df97
           </a>
         </div>
       </div>
